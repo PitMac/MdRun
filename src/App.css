@@ -18,6 +18,30 @@
   border: #393b49 1px solid;
 }
 
+.downloadButton{
+ position: absolute;
+ z-index: 1;
+ left: 20px;
+ bottom: 20px;
+}
+
+.downloadButton > button {
+  color: white;
+  background-color: #393b49;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.downloadButton > button:hover {
+  background-color: #494a50;
+}
+.downloadButton > button:disabled {
+  background-color: #494a50;
+  cursor: not-allowed;
+}
+
 .markdown {
   box-sizing: border-box;
   /* width: 100vw; */
@@ -26,6 +50,24 @@
   outline: none;
   color: white;
   background-color: #282a36;
+}
+
+.copiedMessage {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  background-color: #393b49;
+  padding: 10px 20px;
+  border-radius: 5px;
+  left: -190px;
+  top: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.show {
+  
+  transform: translateX(220px);
+  transition: transform 0.5s ease-in-out;
 }
 
 .Resizer {

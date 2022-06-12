@@ -1,6 +1,7 @@
 import { useMediaQuery } from "react-responsive";
 import SplitPane from "react-split-pane";
 import "./App.css";
+import { DownloadButton } from "./components/DownloadButton";
 import { InputArea } from "./components/InputArea";
 import { MdArea } from "./components/MdArea";
 import { TextProvider } from "./context/TextContext";
@@ -11,7 +12,7 @@ function App() {
   });
   return (
     <TextProvider>
-      {/* <div className="App"> */}
+      <DownloadButton />
       <SplitPane
         resizerClassName="Resizer"
         className="App"
@@ -20,9 +21,7 @@ function App() {
       >
         <InputArea />
         <MdArea />
-        {/* <hr className="divider" /> */}
       </SplitPane>
-      {/* </div> */}
     </TextProvider>
   );
 }
