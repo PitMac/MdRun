@@ -1,0 +1,54 @@
+.App {
+  display: flex;
+}
+.textarea {
+  background-color: #282a36;
+  box-sizing: border-box;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  resize: none;
+}
+
+.divider{
+  border: #393b49 1px solid;
+}
+
+.markdown {
+  box-sizing: border-box;
+  /* width: 100vw; */
+  height: 100vh;
+  padding: 20px;
+  outline: none;
+  color: white;
+  background-color: #282a36;
+}
+
+.Resizer {
+  border: #494a50 1px solid;
+  color: white;
+  opacity: 1;
+  z-index: 2;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+}
+ 
+.Resizer.horizontal {
+  cursor: row-resize;
+}
+ 
+ 
+.Resizer.vertical {
+  cursor: col-resize;
+}
+
+
+
