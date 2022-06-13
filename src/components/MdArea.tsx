@@ -11,6 +11,13 @@ export const MdArea = () => {
     <ReactMarkdown
       className="markdown"
       components={{
+        img({ node, className, children, ...props }) {
+          return (
+            <img {...props} style={{ maxWidth: "100%" }}>
+              {children}
+            </img>
+          );
+        },
         code({ node, inline, className, children, ...props }) {
           const match = /language-(\w+)/.exec(className || "");
           return !inline && match ? (

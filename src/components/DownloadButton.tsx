@@ -13,7 +13,7 @@ export const DownloadButton = () => {
       type: "text/plain",
     });
     element.href = URL.createObjectURL(file);
-    element.download = "code.md";
+    element.download = "README.md";
     document.body.appendChild(element);
     element.click();
     try {

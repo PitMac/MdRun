@@ -7,7 +7,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "markdown-editor",
+    "productName": "md-run",
     "version": "0.1.0"
   },
   "tauri": {

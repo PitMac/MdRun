@@ -5,7 +5,7 @@
   background-color: #282a36;
   box-sizing: border-box;
   color: white;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   padding: 20px;
   font-size: 1.5rem;
@@ -23,6 +23,10 @@
  z-index: 1;
  left: 20px;
  bottom: 20px;
+}
+
+a {
+  color: aqua;
 }
 
 .downloadButton > button {
@@ -50,6 +54,7 @@
   top: 20px;
 }
 
+
 .linkRedirect{
   display: flex;
   height: 50px;
@@ -70,14 +75,18 @@ svg {
   color: white;
 }
 
+
 .markdown {
   box-sizing: border-box;
-  /* width: 100vw; */
+  overflow-y: scroll;
+  width: 50vw;
   height: 100vh;
+  /* background-color: aliceblue; */
   padding: 20px;
   outline: none;
   color: white;
-  background-color: #282a36;
+  /* background-color: #282a36; */
+  word-wrap: break-word;
 }
 
 .copiedMessage {
@@ -122,3 +131,12 @@ svg {
 
 
 
+@media only screen and (max-width: 760px) {
+  .markdown{
+    height: 50vh;
+  }
+
+  .textarea {
+    height: 50vh;
+  }
+}
