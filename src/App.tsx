@@ -13,6 +13,7 @@ function App() {
   return (
     <TextProvider>
       <DownloadButton />
+      {/* @ts-ignore */}
       <SplitPane
         resizerClassName="Resizer"
         className="App"
