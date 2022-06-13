@@ -20,6 +20,7 @@ export const MdArea = () => {
               }}
               wrapLines={true}
               children={String(children).replace(/\n$/, "")}
+              // @ts-ignore
               style={atomDark}
               PreTag="div"
               language={match[1]}
