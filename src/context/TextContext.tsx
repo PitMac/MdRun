@@ -14,7 +14,9 @@ interface Props {
 }
 
 export const TextProvider: FC<Props> = ({ children }) => {
-  const [code, setCode] = useState<string>("");
+  const initialMessage =
+    "# Welcome to my project\n --- \n I'm Jhon Dev. This is [My web Page]('https://jhonpitmac.vercel.app/')";
+  const [code, setCode] = useState<string>(initialMessage);
   return (
     <TextContext.Provider value={{ code, setCode }}>
       {children}
