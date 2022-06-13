@@ -42,6 +42,34 @@
   cursor: not-allowed;
 }
 
+.detailButtons{
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  top: 20px;
+}
+
+.linkRedirect{
+  display: flex;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background-color: #393b49;
+  margin-left: 5px;
+  border-radius: 100%;
+}
+.linkRedirect:hover{
+  background-color: #494a50;
+}
+
+svg {
+  height: 70%;
+  color: white;
+}
+
 .markdown {
   box-sizing: border-box;
   /* width: 100vw; */

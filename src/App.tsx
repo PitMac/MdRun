@@ -1,6 +1,7 @@
 import { useMediaQuery } from "react-responsive";
 import SplitPane from "react-split-pane";
 import "./App.css";
+import { DetailButtons } from "./components/DetailButtons";
 import { DownloadButton } from "./components/DownloadButton";
 import { InputArea } from "./components/InputArea";
 import { MdArea } from "./components/MdArea";
@@ -12,6 +13,7 @@ function App() {
   });
   return (
     <TextProvider>
+      <DetailButtons />
       <DownloadButton />
       {/* @ts-ignore */}
       <SplitPane
