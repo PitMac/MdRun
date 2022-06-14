@@ -1,6 +1,6 @@
 # Md Run
 ---
-This is a Desktop/Web **Markdown Editor/Preview** made:
+This is a Desktop/Web **Markdown Editor/Preview** made with:
 * Tauri
 * Vite
 * React
