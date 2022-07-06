@@ -2,13 +2,14 @@
   display: flex;
 }
 .textarea {
-  background-color: #282a36;
+  background-color: #303030;
   box-sizing: border-box;
   color: white;
   width: 100%;
   height: 100vh;
   padding: 20px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
   outline: none;
   border: none;
   resize: none;
@@ -31,7 +32,7 @@ a {
 
 .downloadButton > button {
   color: white;
-  background-color: #393b49;
+  background-color: #212121;
   border: none;
   padding: 10px;
   cursor: pointer;
@@ -62,7 +63,7 @@ a {
   justify-content: center;
   align-items: center;
   justify-items: center;
-  background-color: #393b49;
+  background-color: #212121;
   margin-left: 5px;
   border-radius: 100%;
 }
@@ -81,11 +82,9 @@ svg {
   overflow-y: scroll;
   width: 50vw;
   height: 100vh;
-  /* background-color: aliceblue; */
   padding: 20px;
   outline: none;
   color: white;
-  /* background-color: #282a36; */
   word-wrap: break-word;
 }
 
