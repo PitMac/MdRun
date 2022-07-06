@@ -1,4 +1,4 @@
-# Md Run
+# RunMD
 ---
 This is a Desktop/Web **Markdown Editor/Preview** made with:
 * Tauri
